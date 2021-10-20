@@ -68,7 +68,7 @@ public class Variable_02 {
         System.out.println(str + 1);
     }
     public static void main(String[] args) throws IOException {
-        practice01();
-        practice02();
+//        practice01();
+//        practice02();
     }
 }
