@@ -274,7 +274,6 @@ public class OOP1_06 {
 //        practice03();
 //        practice04();
 //        practice05();
-        practice06();
+//        practice06();
     }
 }
-// 297 p
