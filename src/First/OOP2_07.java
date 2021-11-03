@@ -1,3 +1,5 @@
+package First;
+
 class Tv07 {
     boolean power;
     int channel;
@@ -53,7 +55,7 @@ class Circle extends Shape {
     }
 
     void draw() {
-        System.out.printf("Circle / center = (%d, %d) / radius = %d / color = %s %n",
+        System.out.printf("First.Circle / center = (%d, %d) / radius = %d / color = %s %n",
                 center.x, center.y, radius, color);
     }
 }
@@ -66,7 +68,7 @@ class Triangle extends Shape {
     }
 
     void draw() {
-        System.out.printf("Triangle / Point1 = %s / Point2 = %s / Point3 = %s / color = %s %n",
+        System.out.printf("First.Triangle / Point1 = %s / Point2 = %s / Point3 = %s / color = %s %n",
                 p[0].getPoint(), p[1].getPoint(), p[2].getPoint(), color);
     }
 }

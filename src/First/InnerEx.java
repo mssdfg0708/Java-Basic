@@ -1,3 +1,5 @@
+package First;
+
 class Outer {
     static int sv = 999;
 
@@ -58,7 +60,7 @@ public class InnerEx {
         Outer.InstanceInner instanceInner = outer.new InstanceInner();
 
         System.out.println("instanceInner.iv : " + instanceInner.iv);
-        System.out.println("Outer.StaticInner.cv : " + Outer.StaticInner.cv);
+        System.out.println("First.Outer.StaticInner.cv : " + Outer.StaticInner.cv);
 
         Outer.StaticInner staticInner = new Outer.StaticInner();
         System.out.println("staticInner.iv : " + staticInner.iv);

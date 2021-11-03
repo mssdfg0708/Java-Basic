@@ -1,3 +1,5 @@
+package First;
+
 public class ExceptionEx09 {
     static void throw01() throws Exception{
         throw02();

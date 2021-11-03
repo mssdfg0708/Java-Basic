@@ -1,3 +1,5 @@
+package First;
+
 import static java.lang.System.out;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,6 +12,6 @@ public class ImportTest {
         SimpleDateFormat time = new SimpleDateFormat("hh:mm:ss a");
 
         out.println("Today is " + date.format(today));
-        out.println("Time is "+ time.format(today));
+        out.println("First.Time is "+ time.format(today));
     }
 }

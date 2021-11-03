@@ -1,3 +1,5 @@
+package First;
+
 public class ExceptionEx02 {
     public static void main(String[] args) {
         int number = 100;

@@ -1,3 +1,5 @@
+package First;
+
 class SpaceException extends Exception {
     SpaceException (String msg) {
         super(msg);
@@ -20,7 +22,7 @@ public class NewExceptionTest {
     }
 
     static void copyFiles() {
-        System.out.println("Copy Files");
+        System.out.println("First.Copy Files");
     }
 
     static void deleteTempFiles() {

@@ -1,3 +1,5 @@
+package First;
+
 import java.util.*;
 
 class Product {
@@ -15,21 +17,21 @@ class Tv02 extends Product {
     Tv02() {
         super(100);
     }
-    public String toString() { return "Tv"; }
+    public String toString() { return "First.Tv"; }
 }
 
 class Computer extends Product {
     Computer() {
         super(200);
     }
-    public String toString() { return "Computer"; }
+    public String toString() { return "First.Computer"; }
 }
 
 class Audio extends Product {
     Audio() {
         super(50);
     }
-    public String toString() { return "Audio"; }
+    public String toString() { return "First.Audio"; }
 }
 
 class Buyer {
