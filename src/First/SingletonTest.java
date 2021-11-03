@@ -1,8 +1,10 @@
+package First;
+
 final class Singleton {
     private static Singleton singleton = new Singleton();
 
     private Singleton() {
-        System.out.println("New Singleton Object!");
+        System.out.println("New First.Singleton Object!");
     }
 
     public static Singleton getInstance() {

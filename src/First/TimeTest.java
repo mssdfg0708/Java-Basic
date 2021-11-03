@@ -1,3 +1,5 @@
+package First;
+
 class Time01 {
     private int hour, minute, second;
 

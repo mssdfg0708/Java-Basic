@@ -1,3 +1,5 @@
+package First;
+
 class InstallException extends Exception {
     InstallException(String msg) {
         super(msg);
@@ -29,7 +31,7 @@ public class ChainedException {
     }
 
     static void copyFiles() {
-        System.out.println("Copy Files");
+        System.out.println("First.Copy Files");
     }
 
     static void deleteTempFiles() {

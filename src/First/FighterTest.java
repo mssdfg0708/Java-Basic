@@ -1,3 +1,5 @@
+package First;
+
 class Unit {
     int curHP;
     int x;
@@ -22,16 +24,16 @@ public class FighterTest {
     public static void main(String[] args) {
         Fighter fighter = new Fighter();
         if (fighter instanceof Unit) {
-            System.out.println("Instance of Unit");
+            System.out.println("Instance of First.Unit");
         }
         if (fighter instanceof Fightable) {
-            System.out.println("Instance of Fightable");
+            System.out.println("Instance of First.Fightable");
         }
         if (fighter instanceof Attackable) {
-            System.out.println("Instance of Attackable");
+            System.out.println("Instance of First.Attackable");
         }
         if (fighter instanceof Movable) {
-            System.out.println("Instance of Movable");
+            System.out.println("Instance of First.Movable");
         }
         if (fighter instanceof Object) {
             System.out.println("Instance of Object");
