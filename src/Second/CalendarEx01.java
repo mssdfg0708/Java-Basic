@@ -63,4 +63,3 @@ public class CalendarEx01 {
         System.out.println(AM_PM1 + " " + hour1 + " " + minute1 + " " + second1);
     }
 }
-//
