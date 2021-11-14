@@ -13,13 +13,13 @@ class Run01 implements Runnable {
 class DaemonRun implements Runnable {
     @Override
     public void run() {
-        long stratTime = System.currentTimeMillis();
+        long startTime = System.currentTimeMillis();
         while (true) {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException interruptedException) { }
             long Time = System.currentTimeMillis();
-            long timer = (Time - stratTime) / 1000;
+            long timer = (Time - startTime) / 1000;
             System.out.println("Daemon Timer : " + timer);
         }
     }
